@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_target</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_target` (
+  `targetid` int(11) NOT NULL,
+  `target_no` varchar(100) DEFAULT NULL,
+  `target_type` varchar(100) DEFAULT NULL,
+  `value` varchar(100) DEFAULT NULL,
+  `target_status` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`targetid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_targetcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_targetcf` (
+  `targetid` int(11) NOT NULL,
+  PRIMARY KEY (`targetid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

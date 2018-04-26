@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_servicetarget</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_servicetarget` (
+  `servicetargetid` int(11) DEFAULT NULL,
+  `target_no` varchar(100) DEFAULT NULL,
+  `target_type` varchar(100) DEFAULT NULL,
+  `value` varchar(100) DEFAULT NULL,
+  `servicetarget_status` varchar(100) DEFAULT NULL,
+  `start_date` date DEFAULT NULL,
+  `end_date` date DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_servicetargetcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_servicetargetcf` (
+  `servicetargetid` int(11) NOT NULL,
+  PRIMARY KEY (`servicetargetid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

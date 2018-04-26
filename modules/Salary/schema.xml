@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_salary</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_salary` (
+  `salaryid` int(11) DEFAULT NULL,
+  `salary_no` varchar(50) DEFAULT NULL,
+  `amount` decimal(25,8) DEFAULT NULL,
+  `deductions` decimal(25,8) DEFAULT NULL,
+  `net_amount` decimal(25,8) DEFAULT NULL,
+  `salary_date` date DEFAULT NULL,
+  `employeeid` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_salarycf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_salarycf` (
+  `salaryid` int(11) NOT NULL,
+  PRIMARY KEY (`salaryid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>

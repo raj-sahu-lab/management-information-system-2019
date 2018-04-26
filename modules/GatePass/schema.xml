@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_gatepass</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_gatepass` (
+  `gatepassid` int(11) NOT NULL,
+  `gatepass_no` varchar(250) DEFAULT NULL,
+  `ro_no` varchar(250) DEFAULT NULL,
+  `ro_date` date DEFAULT NULL,
+  `invoice_no` varchar(250) DEFAULT NULL,
+  `invoice_date` date DEFAULT NULL,
+  `contact_id` int(19) DEFAULT NULL,
+  `vehicle_reg_no` varchar(250) DEFAULT NULL,
+  `vehicle_chassis_no` varchar(250) DEFAULT NULL,
+  `sr_no` varchar(250) DEFAULT NULL,
+  `sr_date` date DEFAULT NULL,
+  `sr_type` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`gatepassid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_gatepasscf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_gatepasscf` (
+  `gatepassid` int(11) NOT NULL,
+  PRIMARY KEY (`gatepassid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>
