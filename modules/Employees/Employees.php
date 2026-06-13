@@ -82,8 +82,6 @@ class Employees extends Vtiger_CRMEntity {
 //			$focus->column_fields['email1'] = $this->column_fields['email'];
 //			$focus->column_fields['first_name'] = $this->column_fields['first_name'];
 //			$focus->column_fields['last_name'] = $this->column_fields['last_name'];
-//			$focus->column_fields['user_password'] = 'REDACTED';
-//			$focus->column_fields['confirm_password'] = 'REDACTED';
 //			$focus->column_fields['roleid'] = $this->column_fields['roleid'];
 //			$focus->column_fields['address_street'] = $this->column_fields['street'];
 //			$focus->column_fields['address_country'] = $this->column_fields['country'];

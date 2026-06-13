@@ -46,6 +46,19 @@ A fully configured VTiger CRM 7.x deployment customized for comprehensive busine
 
 ## Architecture
 
+This project is built on **VTiger CRM 7.x** (vtiger CRM Public License). The custom development by Raj Sahu consists of **6 original vtlib modules** added to extend the VTiger base:
+
+- **Employees** — HR employee management with salary and deductions tracking
+- **GatePass** — Vehicle gate-pass management (chassis no., invoice no., vehicle reg.)
+- **Salary** — Salary/deduction records linked to the Employees module
+- **Payment** — Payment recording linked to CRM contacts
+- **ServiceTarget** — Service target tracking
+- **Target** — Packaged vtlib module export
+
+All other modules (55+) are standard VTiger CRM 7.x modules. VTiger copyright notices are retained throughout per the vtiger CRM Public License.
+
+## Directory Structure
+
 ```
 ├── modules/        — 61 business logic modules
 ├── layouts/        — UI templates (v7 modern + vlayout classic)
