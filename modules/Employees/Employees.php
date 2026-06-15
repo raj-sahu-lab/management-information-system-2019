@@ -147,7 +147,7 @@ class Employees extends Vtiger_CRMEntity {
 		INNER JOIN vtiger_crmentity on vtiger_crmentity.crmid = vtiger_salary.salaryid 
 		LEFT JOIN vtiger_groups	ON vtiger_groups.groupid = vtiger_crmentity.smownerid
 		LEFT JOIN vtiger_users ON vtiger_crmentity.smownerid = vtiger_users.id
-		WHERE vtiger_crmentity.deleted = 0 AND vtiger_salary.employeeid = " . $id;
+		WHERE vtiger_crmentity.deleted = 0 AND vtiger_salary.employeeid = " . intval($id);
 	
 		$return_value = GetRelatedList($currentModule, $related_module, $other, $query, $button, $returnset);
 		if ($return_value == null)
