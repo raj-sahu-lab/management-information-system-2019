@@ -1,5 +1,9 @@
 # Management Information System (MIS)
 
+> **Built:** 2017–2018 · VTiger CRM 7.x · PHP · MySQL
+>
+> This project was built in 2017–2018 as a customised CRM/MIS for an automotive business. The base platform is VTiger CRM 7.x (vtiger CRM Public License); the original work by Raj Sahu consists of 6 custom vtlib modules built on VTiger's CRMEntity framework. See the Architecture section below for the full breakdown of what is custom vs. stock VTiger.
+
 A fully configured VTiger CRM 7.x deployment customized for comprehensive business management — CRM, sales, inventory, projects, HR, and helpdesk operations.
 
 ## Deployed: 2018
