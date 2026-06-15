@@ -1,4 +1,4 @@
-# Management Information System (MIS)
+# Management Information System (MIS) (2019)
 
 > **Built:** 2017–2018 · VTiger CRM 7.x · PHP · MySQL
 >
@@ -97,7 +97,3 @@ All other modules (55+) are standard VTiger CRM 7.x modules. VTiger copyright no
 ## Note
 
 Deployed as a complete CRM/MIS solution for business operations. The system evolved through multiple versions (5.4 → 6.0 → 7.0 → 7.0.1) and includes extensive customization for inventory, HR, and project management workflows.
-
----
-
-© 2018 Raj Sahu
